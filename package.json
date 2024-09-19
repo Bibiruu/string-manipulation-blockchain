@@ -1,0 +1,26 @@
+{
+  "name": "string-manipulation-blockchain",
+  "version": "1.0.0",
+  "description": "Context of the first function length, the function is marked as pure because it does not interact with any contract state (i.e., it doesn't read or write to the blockchain's storage). Instead, it simply takes in a string argument and performs an operation (calculating its length) entirely within the function, without changing the blockchain's state.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bibiruu/string-manipulation-blockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bibiruu/string-manipulation-blockchain/issues"
+  },
+  "homepage": "https://github.com/Bibiruu/string-manipulation-blockchain#readme",
+  "dependencies": {
+    "truffle": "^5.5.5"
+  }
+}

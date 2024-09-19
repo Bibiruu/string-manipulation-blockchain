@@ -3,7 +3,7 @@ pragma solidity ^0.8.19;
 
 contract Strings {
 
-    function length(string memory str) pure public memory returns(uint) {
+    function length(string memory str) pure public returns(uint) {
         //string first into bytes 
         bytes memory str_bytes = bytes(str);
         return str_bytes.length;
@@ -18,7 +18,7 @@ contract Strings {
         returns(string memory) {
             bytes memory str1_bytes = bytes(str1);
             bytes memory str2_bytes = bytes(str2);
-            string memory str new string(str1_bytes + str2_bytes.length);
+            string memory str = new string(str1_bytes.length + str2_bytes.length);
             bytes memory str_bytes = bytes(str);
             
             uint j = 0;
@@ -28,10 +28,10 @@ contract Strings {
             }
 
             for(uint i = 0; i < str2_bytes.length; i++) {
-                str_bytes[i] = str2_bytes;
+                str_bytes[i] = str2_bytes[i];
                 j++;
             }
 
-            return string()
+            return string(str_bytes);
     } 
 }
