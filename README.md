@@ -6,7 +6,9 @@ Using Pure keyword in the code:
 The pure keyword means the function doesn't access or modify the blockchain's state.
 The function length is pure because it only works with input values and doesn't interact with any contract variables stored on-chain.
 
-String manipulation should be used only for last resort in smart contracts. 
+String manipulation should be used only for last resort in smart contracts.
+
+Deployed smart contracts in the SEPOLIA TEST NET.
 
 1_initial_migration.js
 ======================
